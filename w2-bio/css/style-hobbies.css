@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    /*vh = viewport height(percentage of browser size*/
+    height: 100vh;
+    background-color: rgb(144, 9, 140);
+}
+/* specfying an ID*/
+#main-container{
+    border: 5px solid black;
+    width: 1000px;
+    height: 900px;
+    background-color: silver
+}
+#header{
+    height: 130px;
+    border: 30px inset black;
+    text-align: center;
+    font-style: bold;
+#nav-bar{
+    height: 50px;
+    text-align: center;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    /*creates mpty space*/
+    padding-top:25px ;
+}
+/*specifies a class*/
+.nav-btn{
+    border:2px solid black;
+    padding:10x;
+}
+#content{
+    height: 520px;
+    width: 650px;
+    text-align: center;
+    margin: auto;
+    
+}
+#yap{
+    font-size: 20px;
+    border:2px double white
+}
